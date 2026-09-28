@@ -1,0 +1,28 @@
+node_modules
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+.env*.local
+.DS_Store
+
+# Source material kept in the project folder but not part of the site
+# (originals, reference images, font download folders). Only public/ is served.
+/*.jpg
+/*.JPG
+/*.jpeg
+/*.png
+/*.PNG
+/*.heic
+/*.HEIC
+/*.mov
+/*.MOV
+/*.mp4
+/*.MP4
+/*.pdf
+/*.otf
+/*.ttf
+/biro_script/
+
+# Local editor/tool settings
+/.claude/
