@@ -64,6 +64,12 @@ function Sheet() {
           <p className="font-display text-[54pt] leading-[0.8] tracking-[0.02em]">CV</p>
           <h1 className="mt-[5mm] text-[30pt] italic leading-[0.9] tracking-[-0.04em]">{fullName}</h1>
           <p className="mt-[2.5mm] text-[7pt] font-medium uppercase tracking-[0.08em]">{cv.title}</p>
+          <p className="mt-[1.5mm] text-[7.5pt]">
+            <span className="italic">Portfolio: </span>
+            <a href={contact.site} className="underline underline-offset-2">
+              {contact.siteLabel}
+            </a>
+          </p>
           <div className="mt-[5mm] space-y-[2.5mm] text-[8.5pt] leading-[1.45]">
             {cv.profile.map((para) => (
               <p key={para}>{para}</p>

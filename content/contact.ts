@@ -2,6 +2,8 @@
 // "right now" slot from the sample week on the About page.
 
 export const contact = {
+  site: "https://caroline-vind-portfolio.vercel.app",
+  siteLabel: "caroline-vind-portfolio.vercel.app",
   email: "caroline.vind@gmail.com",
   phone: "+45 27 72 35 45",
   phoneHref: "tel:+4527723545",
