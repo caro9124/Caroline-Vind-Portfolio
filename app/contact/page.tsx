@@ -35,7 +35,7 @@ export default function ContactPage() {
 
           <div className="mt-16">
             <SayHi className="font-script text-[clamp(1.5rem,2.4vw,2rem)] leading-none transition-opacity duration-300 hover:opacity-60">
-              {contactCopy.sayHi} →
+              {contactCopy.sayHi}&nbsp;→
             </SayHi>
           </div>
         </section>

@@ -7,7 +7,7 @@
   --font-sans: "Helvetica Neue", Helvetica, var(--font-inter), Arial, sans-serif;
   --font-brush: var(--font-botch), "Arial Black", sans-serif;
   --font-display: var(--font-botch), "Arial Black", sans-serif;
-  --font-script: var(--font-biro), "Bradley Hand", cursive;
+  --font-script: var(--font-hand), "Bradley Hand", cursive;
 }
 
 html {
@@ -153,4 +153,10 @@ html.has-ink-cursor *::after {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
+}
+
+/* Reenie Beanie has a small x-height; scale it so the handwritten notes read at the size they were
+   designed for (keeps every existing text-[…] size working). */
+.font-script {
+  font-size-adjust: 0.48;
 }

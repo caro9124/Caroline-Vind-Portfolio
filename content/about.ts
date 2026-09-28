@@ -104,7 +104,7 @@ export const palette = [
 export const typefaces = [
   { name: "Helvetica Neue, italic", role: "for saying things clearly", className: "italic tracking-[-0.03em]" },
   { name: "Botch", role: "for saying them loudly", className: "font-display lowercase" },
-  { name: "Biro Script", role: "for the notes in the margin", className: "font-script" },
+  { name: "Reenie Beanie", role: "for the notes in the margin", className: "font-script" },
 ];
 
 /** Grounded in her own posts: the Levi’s exam reflection, the guest lecture and her About text. */

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Reenie_Beanie } from "next/font/google";
 import localFont from "next/font/local";
 import { person } from "@/content/site";
 import InkCursor from "@/components/InkCursor";
@@ -15,10 +15,11 @@ const display = localFont({
   display: "swap",
 });
 
-// Biro Script by ingoFonts: the handwritten titles of the process stages on the homepage.
-const script = localFont({
-  src: "./fonts/BiroScript.otf",
-  variable: "--font-biro",
+// Reenie Beanie (Google Fonts, free for web use): the handwritten notes, labels and asides.
+const script = Reenie_Beanie({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-hand",
   display: "swap",
 });
 

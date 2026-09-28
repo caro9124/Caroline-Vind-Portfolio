@@ -13,7 +13,7 @@ const fullName = `${person.firstName} ${person.lastName}`;
 
 /*
  * The CV as one A4 sheet in the portfolio's identity: paper, ink and blush, italic headings, Botch for
- * the big "CV" and Biro for the margin notes. It prints to exactly one page (see the print rules in
+ * the big "CV" and Reenie Beanie for the margin notes. It prints to exactly one page (see the print rules in
  * globals.css), and the downloadable PDF is generated from this same page.
  */
 export default function CvPage() {
